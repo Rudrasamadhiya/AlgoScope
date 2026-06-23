@@ -5,6 +5,20 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.14.0](https://github.com/algoscope-hq/AlgoScope/compare/v1.13.0...v1.14.0) (2026-06-23)
+
+
+### Features
+
+* updated search bar ([1f485d2](https://github.com/algoscope-hq/AlgoScope/commit/1f485d2e09ea530ec3a76c007dad01686d7183f6))
+
+
+### Bug Fixes
+
+* add missing id fields and fix syntax error ([7f3e007](https://github.com/algoscope-hq/AlgoScope/commit/7f3e007446c8dea8fdd7dcdd5c9886b534dfd101))
+* compute visualizer count dynamically instead of hardcoded 9+ (closes [#698](https://github.com/algoscope-hq/AlgoScope/issues/698)) ([9c173bf](https://github.com/algoscope-hq/AlgoScope/commit/9c173bf04406c1540da69feca164d2330436e947))
+* move visualizer data to shared module to break circular import ([91648e1](https://github.com/algoscope-hq/AlgoScope/commit/91648e1a9b804ea744b8545a32e1436c11d6fb6f))
+
 ## [1.13.0] - 2026-06-18
 
 ### Added
